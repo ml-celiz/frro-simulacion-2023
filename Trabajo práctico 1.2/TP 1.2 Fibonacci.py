@@ -103,7 +103,7 @@ plt.xlabel("Cantidad de tiradas")
 plt.ylabel("Frecuencia")
 plt.show()
 
-#Grafica dinero
+#Graficar dinero
 plt.title("Dinero en la Billetera")
 plt.axhline(dineroIni, color='k',ls="dotted", xmax=tiradas)
 plt.axhline(0, color='k',ls="dotted", xmax=tiradas)
@@ -161,7 +161,7 @@ plt.ylabel("Frecuencia")
 
 plt.show()
 
-#Grafica dinero
+#Graficar dinero
 plt.title("Dinero en la Billetera")
 plt.axhline(dineroIni, color='k',ls="dotted", xmax=tiradas)
 plt.axhline(0, color='k',ls="dotted", xmax=tiradas)
